@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(90deg, black, forestgreen);
+}
+/*  */
+
+/* profil */
+.profil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.prof{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 130px;
+  border: 1.5px solid black;
+  border-radius: 70% 0 0;
+  background-image: url(1.png);
+  background-repeat: no-repeat;
+  background-size: 27em;
+  height: 300px;
+  width: 400px;
+}
+/* title */
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 10%;
+}
+.h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 60px;
+  font-family: 'El Messiri', sans-serif;
+}
+.symbole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* container */
+.contenair{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: 350px;
+  width: 400px;
+  border: 1.5px solid black;
+  border-radius: 0 0 70%;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  animation: 1s infinite items;
+}
+@keyframes items{
+  50%{
+    box-shadow: 2px 2px 4em whitesmoke;
+  }
+}
+
+.menu{
+  overflow: hidden;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: 4px solid black;
+  background-image: url(1.png);
+ animation: 10s infinite btn;
+}
+@keyframes btn{
+0%{
+  transform: translateX(0);
+}
+25%{
+  transform: translateX(-400px);
+}
+50%{
+  transform: translateX(-800px);
+}
+75%{
+  transform: translateX(-1200px);
+}
+100%{
+  transform: translateX(-1600px);
+}
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 0 0 70%;
+}
+
+.h2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 20%;
+  width: 95%;
+  color: white;
+  font-size: 45px;
+  font-family: 'El Messiri', sans-serif; 
+}
+/* contacte */
+.adresse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(1.png);
+  background-repeat: no-repeat;
+  background-size: 15em;
+  height: 170px;
+  width: 135px;
+  border-radius: 20%;
+  box-shadow: inset 1.5px 1.5px 0.5em whitesmoke;
+}
+
+
+
+
+
+
+ 
+
+ 
